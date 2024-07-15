@@ -1,0 +1,62 @@
+{
+  "boards": [
+    {
+      "name": "This is board 1",
+      "columns": [
+        {
+          "name": "Todo",
+          "color": "#49C4E5",
+          "tasks": [
+            {
+              "id": "4a934216-0b96-475d-8284-d027e8657df3",
+              "title": "This is sample task in Todo",
+              "description": "Description in task todo",
+              "status": "Todo",
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "color": "#8471F2",
+          "tasks": [
+            {
+              "id": "69eb5ce8-4720-441e-b7b4-0c1d8a59143d",
+              "title": "This is sample task in Doing",
+              "description": "Description in task doing",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "This is sample of Subtask title true condition",
+                  "isCompleted": true
+                },
+                {
+                  "title": "This is sample of Subtask title false condition",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "color": "#67E2AE",
+          "tasks": [
+            {
+              "id": "c1af8e06-e7e8-49c7-9851-f7ea1fdb73b9",
+              "title": "This is sample task in Done",
+              "description": "Description in task done",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "This is sample of Subtask title",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
-// import './assets/main.css'
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import App from "./App.vue";
+import "./assets/main.css";
+import VueDragscroll from "vue-dragscroll";
+const app = createApp(App);
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import App from './App.vue'
+app.use(VueDragscroll);
+app.use(createPinia());
 
-const app = createApp(App)
-
-app.use(createPinia())
-
-app.mount('#app')
+app.mount("#app");
