@@ -4,7 +4,7 @@
       :class="managerStore.dragging ? '' : 'group-hover:text-main-blue'">
       {{ task.title }}
     </h3>
-    <p class="text-xs text-medium-grey font-bold select-none pointer-events-none">{{ subtasksCompleted }} substasks</p>
+    <p class="text-xs text-medium-grey font-bold select-none pointer-events-none">{{ subtasksCompleted }} substasks completed</p>
   </article>
 </template>
 

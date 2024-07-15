@@ -1,6 +1,6 @@
 <template>
   <form @submit.prevent="onSubmit" class="bg-white dark:bg-dark-grey rounded-lg p-1">
-    <div class="p-5 pr-3 flex flex-col gap-6 max-h-[90vh] overflow-y-scroll">
+    <div class="p-5 pr-3 flex flex-col gap-2 max-h-[90vh] overflow-y-scroll">
       <div class="flex justify-between items-center">
         <h4 class="text-black dark:text-white font-bold text-lg">
           {{ managerStore.taskForm.edit ? 'Edit Task' : 'Add New Task' }}

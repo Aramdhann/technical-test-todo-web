@@ -1,5 +1,5 @@
 <template>
-  <label class="cursor-pointer bg-light-grey dark:bg-very-dark-grey dark:hover:bg-main-blue/25 p-4 flex items-center gap-4 rounded
+  <label class="cursor-pointer bg-light-grey dark:bg-very-dark-grey dark:hover:bg-main-blue/10 py-2 px-4 flex items-center gap-4 rounded-lg
   hover:bg-main-blue hover:bg-opacity-25" :for="subtask?.title">
     <div class="relative">
       <input class="cursor-pointer " v-model="subtask.isCompleted" type="checkbox" :id="subtask?.title">
@@ -9,8 +9,8 @@
         <img v-if="subtask.isCompleted" src="@/assets/icons/icon-check.svg" alt="">
       </div>
     </div>
-    <span class="text-black dark:text-white text-xs font-bold"
-      :class="subtask.isCompleted ? 'line-through text-opacity-50 dark:text-opacity-50' : ''">
+    <span class="text-black dark:text-white text-xs"
+      :class="subtask.isCompleted ? 'line-through text-opacity-50 dark:text-opacity-30' : ''">
       {{ subtask?.title }}
     </span>
   </label>
