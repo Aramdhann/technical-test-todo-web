@@ -1,29 +1,52 @@
 # SeniorSoftwareEngineer-TechnicalTest
 
-This template should help get you started developing with Vue 3 in Vite.
+### Prerequisites
 
-## Recommended IDE Setup
+Ensure you have the following installed:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/)
 
-## Customize configuration
+### Installation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/seniorsoftwareengineer-technicaltest.git
+    cd seniorsoftwareengineer-technicaltest
+    ```
 
-## Project Setup
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-```sh
-npm install
-```
+### Running the Application
 
-### Compile and Hot-Reload for Development
+1. **Development Server**:
+    ```bash
+    npm run dev
+    ```
+    Open your browser and navigate to `http://localhost:5173` to view the application.
 
-```sh
-npm run dev
-```
+2. **Build for Production**:
+    ```bash
+    npm run build
+    ```
 
-### Compile and Minify for Production
+3. **Preview Production Build**:
+    ```bash
+    npm run preview
+    ```
+    This will start a local server to preview the production build.
 
-```sh
-npm run build
-```
+## Technologies Used
+
+- **Vue.js**: Frontend framework
+- **Pinia**: State management
+- **uuid**: For generating unique IDs
+- **Tailwind CSS**: Utility-first CSS framework
+- **Vite**: Build tool
+
+## Live Demo
+
+You can view the live demo of the application at: [Live Demo URL](https://technical-test-todo-web.vercel.app/)
